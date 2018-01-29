@@ -1,0 +1,179 @@
+.container {
+    width: 100%;
+    max-width:initial;
+}
+
+.loader{
+    z-index: 9999;
+    background-color: black;
+}
+.kong
+ {
+     position: relative;
+     top:20px;
+   
+ }
+.spo
+{
+    position: relative;
+    left:30px;
+}
+.spo img
+{
+	object-fit: contain;
+}
+.fullscreen-bg {
+
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow:inherit;
+    z-index: -100;
+}
+
+
+ @font-face { font-family: Elianto ; src: url('assests/Elianto-Regular.otf'); } 
+.fullscreen-bg__video {
+    position:absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+.loaderl
+{ background-color: black;
+    height: 70%;
+    width:70%;
+    position:absolute;
+    top: 50px;
+    left:13%;
+
+}
+.logo
+{
+height:60%;
+width: 65%;
+position:absolute;
+bottom:40%;
+left:12%;
+}
+
+.btn-floating{
+position:sticky;
+bottom:100px;
+left:50px
+}
+.hover14 {
+	position: relative;
+}
+.hover14 ::before {
+	position: absolute;
+	top: 0;
+	left: -75%;
+	z-index: 2;
+	display: block;
+	content: '';
+	width: 50%;
+	height: 100%;
+	background: -webkit-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,.3) 100%);
+	background: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,255,255,.3) 100%);
+	-webkit-transform: skewX(-25deg);
+	transform: skewX(-25deg);
+}
+.hover14 hover::before {
+	-webkit-animation: shine .75s;
+	animation: shine .75s;
+}
+@-webkit-keyframes shine {
+	100% {
+		left: 125%;
+	}
+}
+@keyframes shine {
+	100% {
+		left: 125%;
+	}
+}
+.myButton {
+				-moz-box-shadow: 2px 2px 10px -1px #fff6af;
+				-webkit-box-shadow: 2px 2px 10px -1px #fff6af;
+				box-shadow: 2px 2px 10px -1px #fff6af;
+				background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffec64), color-stop(1, #ffab23));
+				background: -moz-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+				background: -webkit-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+				background: -o-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+				background: -ms-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+				background: linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
+				filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffec64', endColorstr='#ffab23', GradientType=0);
+				background-color: gold;
+				-moz-border-radius: 15px;
+				-webkit-border-radius: 15px;
+				border-radius: 15px;
+				border: 2px solid #ffaa22;
+				display: inline-block;
+				cursor: pointer;
+				color: #333333;
+				font-family: Arial;
+				font-size: 19px;
+				padding: 14px 32px;
+				text-decoration: none;
+				text-shadow: 1px 2px 1px #ffee66;
+				position: absolute;
+				bottom: 16%;
+				right:45%;
+			}
+
+			.myButton:hover {
+				background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffab23), color-stop(1, #ffec64));
+				background: -moz-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+				background: -webkit-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+				background: -o-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+				background: -ms-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+				background: linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
+				filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffab23', endColorstr='#ffec64', GradientType=0);
+				background-color: #ffab23;
+			}
+
+			.myButton:active {
+				position: absolute;
+				bottom: 16%;
+				right:45%;
+			}
+.present
+{
+	position:fixed;
+	top:10%;
+	right:20%;
+	
+}
+#demo
+{
+	
+	font-size:60px;
+	color:black;
+	position:absolute;
+	top:47%;
+	left:30%;
+}
+.eve
+{
+	positon:relative;
+	right:10%;
+}
+.logom{
+	height:80%;
+position:absolute;
+bottom:45%;
+right:7%;
+}
+.presentm
+{
+	height:100%;
+	position:absolute;
+	top:10%;
+	right:0%;
+	
+}
+
+

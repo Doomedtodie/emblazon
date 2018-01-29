@@ -1,0 +1,190 @@
+
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
+
+<head>
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="theme-color" content="#000000">
+    <meta name="description" content="Emblazon is the Annual Cultural Fest of HMRITM">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <meta name="keywords" content="Vishesh Mohey,vishesh Mohey,MoheyHMRITM,HMR,HMR isntitute of technology and management,hmritm,delhi,fest,Delhi,emblazon,Emblazon,annual fest of HMRITM,best culutral fest,indraprastha university,Guru Gobind Singh Indraprastha University,IP,GGSIPU"
+    />
+	<link rel="icon" type="image/png" href="images/mask_logo.png">
+		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+	<link href="assests/gallery-materialize.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <head><script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script
+                src="https://code.jquery.com/jquery-2.2.4.min.js"
+                integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+                crossorigin="anonymous"></script>
+        <link href="assests/materialize.min.css" rel="stylesheet">
+        <script type="text/javascript" src="assests/materialize.min.js"></script>
+
+        <link href="assests/style1.css" rel="stylesheet">
+        <title>Emblazon||Annual Fest of HMRITM</title>
+    </head>
+	<div class="navbar-fixed">
+        <nav>
+            <div class="nav-wrapper black">
+                <a style="font-family: 'Lobster', cursive;" href="emblazon.html" class="brand-logo">Emblazon</a>
+
+                <ul class="right hide-on-small-and-down">
+                    <li>
+                        <a href="Events.html">Events</a>
+                    </li>
+                    <li>
+                        <a href="Sponsors.html">Sponsors</a>
+                    </li>
+                    <li>
+                        <a href="Team.html">Team</a>
+                    </li>
+                </ul>
+                <a href="#" data-activates="mobile-demo" class="button-collapse">
+                    <i class="material-icons">menu</i>
+                </a>
+            </div>
+        </nav>
+    </div>
+    <ul class="side-nav black " id="mobile-demo">
+        <li>
+            <a class="white-text" href="Events.html">Events</a>
+        </li>
+        <li>
+            <a class="white-text" href="Sponsors.html">Sponsors</a>
+        </li>
+        <li>
+            <a class="white-text" href="Team.html">Team</a>
+        </li>
+    </ul>
+<!--	$(document).ready(function () {
+    $("#type").change(function () {
+        var val = $(this).val();
+        if (val == "DEBATE") {
+            $("#size").html("<option value='1'>1</option>");
+        } else if (val == "Tattoo Making") {
+            $("#size").html("<option value='2'>2</option>");
+        } else if (val == "Group Dance") {
+            $("#size").html("<option value='6'>6</option><option value='7'>7</option><option value='8'>8</option><option value='9'>9</option><option value='10'>10</option><option value='11'>11</option><option value='12'>12</option><option value='13'>13</option><option value='14'>14</option>");
+        } else if (val == "DUET DANCE") {
+            $("#size").html("<option value='2'>2</option>");
+        } 
+		else if (val == "SOLO DANCE") {
+            $("#size").html("<option value='1'>1</option>");
+        } 
+		else if (val == "Minute to Win It") {
+            $("#size").html("<option value='2'>2</option>");
+        } 
+		else if (val == "Treasure Hunt") {
+            $("#size").html("<option value='2'>2</option><option value='4'>4</option>");
+        } 
+		else if (val == "Face Painting") {
+            $("#size").html("<option value='2'>2</option>");
+        } 
+		else if (val == "Street Play") {
+            $("#size").html("<option value='15'>15</option><option value='16'>16</option><option value='17'>17</option><option value='18'>18</option><option value='19'>19</option><option value='20'>20</option>");
+        } else if (val == "Fashion Parade") {
+            $("#size").html("<option value='test'>item3: test 1</option><option value='test2'>item3: test 2</option>");
+        } else if (val == "AD MAD SHOW") {
+            $("#size").html("<option value='test'>item3: test 1</option><option value='test2'>item3: test 2</option>");
+        } else if (val == "Entertairnment Quiz") {
+            $("#size").html("<option value='test'>item3: test 1</option><option value='test2'>item3: test 2</option>");
+        } else if (val == "Solo Singing") {
+            $("#size").html("<option value='test'>item3: test 1</option><option value='test2'>item3: test 2</option>");
+        } 
+		else if (val == "One Act Play") {
+            $("#size").html("<option value='test'>item3: test 1</option><option value='test2'>item3: test 2</option>");
+        }
+		else if (val == "Mr & Ms Emblazon") {
+            $("#size").html("<option value='test'>item3: test 1</option><option value='test2'>item3: test 2</option>");
+        }
+    });
+	
+  });
+  -->
+  <style>
+  body{
+  background-image:url("images/reg.jpg");
+  background-size:contain;
+  }
+ </style>
+<script>
+
+  $(document).ready(function() {
+    $('select').material_select();
+  });
+</script>
+<body>
+
+<form name="submit-to-google-sheet">
+  <div class="input-field col s12 ">
+    <select required="required"name="Event" id="type">
+      <option value="" disabled selected>Choose The Event </option>
+      <option value="DEBATE">DEBATE</option>
+      <option value="Tattoo Making">Tattoo Making</option>
+      <option value="Group Dance">Group Dance</option>
+	  <option value="DUET DANCE">DUET DANCE</option>
+	  <option value="SOLO DANCE">SOLO DANCE</option>
+	  <option value="Minute to Win It">Minute to Win It</option>
+	  <option value="Treasure Hunt">Treasure Hunt</option>
+	  <option value="Face Painting">Face Painting</option>
+	  <option value="Street Play">Street Play</option>
+	  <option value="Fashion Parade">Fashion Parade</option>
+	  <option value="AD MAD SHOW">AD MAD SHOW</option>
+	  <option value="Entertairnment Quiz">Entertairnment Quiz</option>
+	  <option value="Solo Singing">Solo Singing</option>
+	  <option value="One Act Play">One Act Play</option>
+	  <option value="Mr & Ms Emblazon">Mr & Ms Emblazon</option>
+    </select>
+    <label>Event</label>
+  </div>
+  <div class="input-field col s6 m7 ">
+  <i class="material-icons prefix">group</i>
+          <input  required="required" type="number" name="Members"  class="validate">
+<label>No of Members In Your Team</label>
+</div>
+  <div class="input-field col s6 m7">
+  <i class="material-icons prefix">account_circle</i>
+          <input  required="required" type="text" name="Name"  class="validate">
+          <label >Name</label>
+        </div>
+   
+  <div class="input-field col s6 m7">
+  <i class="material-icons prefix">school</i>
+    <label>College</label>
+    <input required="required" type="text" name="College" />
+  </div>
+  
+        <div class="input-field col s6 m9">
+		<i class="material-icons prefix">email</i>
+          <input required="required" name="Mail" type="email" class="validate">
+          <label data-error="Enter Valid Email">Email</label>
+        </div> 
+  <div class="input-field col s6 m7">
+  <i class="material-icons prefix">phone</i>
+    <input required="number" name="Phone" type="number"class="validate">
+	<label data-error="Enter Valid Contact">Phone</label
+  </div>
+ 
+
+ <center>
+   <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+    <i class="material-icons right">send</i>
+  </center>
+  </div>
+
+</form>
+</body>
+<script> const scriptURL = 'https://script.google.com/macros/s/AKfycbzuhFzSR9hkY5ezauXggwsjcKLPt_-IWTYwPLA9_Dhp-NpKyKac/exec'
+  const form = document.forms['submit-to-google-sheet']
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => console.log('Success!', response))
+      .catch(error => console.error('Error!', error.message))
+  });
+  </script>
+  </html>
